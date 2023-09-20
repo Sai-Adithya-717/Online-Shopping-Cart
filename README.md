@@ -25,6 +25,8 @@
 ## Create Database
 
 * [Table.sql](https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Creating%20table.sql.txt): Create tables for entities and relationships above.
-* [Insert.sql](): Insert datas into tables.
-* [Modification.sql](): Modify the data.
-* [Stored Procedures](): Stored procedures and triggers to work with data.
+* [Insert.sql](https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Inserting%20Data.sql.txt): Insert datas into tables.
+* [Modification.sql](
+https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Modifications.sql.txt): Modify the data.
+* [Stored Procedures](
+https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Stored%20Procedures.sql.txt): Stored procedures and triggers to work with data.
