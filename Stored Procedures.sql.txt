@@ -1,0 +1,29 @@
+-- Increase Quantity of Items
+
+CREATE procedure [dbo].[shoppingcart_quantity_changes] 
+@userid int,
+@pid int,
+@addTime date,
+@quantity int AS
+BEGIN
+if exists(select 1 from dbo.Save_to_Shopping_Cart where pid = @pid)
+begin
+  update dbo.Save_to_Shopping_Cart set quantity = quantity + @quantity where pid = @pid;
+end
+else
+begin
+insert into dbo.Save_to_Shopping_Cart(userid,pid,addTime,quantity) values (@userid,@pid,@addTime,@quantity);
+end
+END;
+
+----Triggers
+
+CREATE TRIGGER [dbo].[shoppingudits] 
+   ON [dbo].[Save_to_Shopping_Cart] 
+   AFTER INSERT
+AS 
+BEGIN
+	set nocount on;
+	insert into dbo.shoppingcart_audits(userid,pid,quantity)
+	select userid,pid,quantity from inserted;
+END
