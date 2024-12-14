@@ -24,9 +24,9 @@
 
 ## Create Database
 
-* [Table.sql](https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Creating%20table.sql.txt): Create tables for entities and relationships above.
-* [Insert.sql](https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Inserting%20Data.sql.txt): Insert datas into tables.
+* [Table.sql](https://github.com/Sai-Adithya-717/Online-Shopping-Cart/blob/main/Creating%20table.sql.txt): Create tables for entities and relationships above.
+* [Insert.sql](https://github.com/Sai-Adithya-717/Online-Shopping-Cart/blob/main/Inserting%20Data.sql.txt): Insert datas into tables.
 * [Modification.sql](
-https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Modifications.sql.txt): Modify the data.
+https://github.com/Sai-Adithya-717/Online-Shopping-Cart/blob/main/Modifications.sql.txt): Modify the data.
 * [Stored Procedures](
-https://github.com/WideCarSupporter/Online-Shopping-Cart/blob/main/Stored%20Procedures.sql.txt): Stored procedures and triggers to work with data.
+https://github.com/Sai-Adithya-717/Online-Shopping-Cart/blob/main/Stored%20Procedures.sql.txt): Stored procedures and triggers to work with data.
